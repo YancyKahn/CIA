@@ -1,0 +1,10 @@
+__pycache__
+*.pyc
+*.pyo
+visualQA
+*.zip
+build
+*output
+log.txt
+baseline
+experiments/run_scripts/log*
