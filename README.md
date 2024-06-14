@@ -11,7 +11,7 @@ TODO: The paper will be released soon...
 
 </div align="center">
 
-Vision-language models (VLMs) seamlessly integrate visual and textual data to perform tasks such as image classification, caption generation, and visual question answering. However, in cross-prompt adversarial attack scenarios, a single adversarial image often fails to effectively deceive all prompts. To address this challenge, we propose a Context-Enhanced Attack (ACE) that utilizes gradient-based perturbation to inject the target command into visual and textual contexts, thereby improving its probability distribution and enhancing cross-prompt transferability of adversarial images. Extensive experiments on the BLIP2, InstructBLIP, and Llava models show that ACE outperforms existing methods in cross-prompt transferability, demonstrating its potential for more effective adversarial strategies in VLMs.
+Vision-language models (VLMs) seamlessly integrate visual and textual data to perform tasks such as image classification, caption generation, and visual question answering. However, in cross-prompt adversarial attack scenarios, a single adversarial image often fails to effectively deceive all prompts. To address this challenge, we propose a Context-Enhanced Attack (ACE) that utilizes gradient-based perturbation to inject the target instructions into visual and textual contexts, thereby improving its probability distribution and enhancing cross-prompt transferability of adversarial images. Extensive experiments on the BLIP2, InstructBLIP, and Llava models show that ACE outperforms existing methods in cross-prompt transferability, demonstrating its potential for more effective adversarial strategies in VLMs.
 
 ![Overall Stucture](assets/motivation.png)
 
