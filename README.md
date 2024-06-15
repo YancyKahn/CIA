@@ -1,4 +1,4 @@
-# ACE: Context-Enhanced Transfer Attack for Cross Prompt in Vision-Language Models
+# Enhancing Cross-Prompt Transferability in Vision-Language Models through Contextual Injection of Target Tokens
 
 ---
 This project aims to attack vision-language models, such as blip2, instructBLIP, llava.
@@ -11,7 +11,7 @@ TODO: The paper will be released soon...
 
 </div align="center">
 
-Vision-language models (VLMs) seamlessly integrate visual and textual data to perform tasks such as image classification, caption generation, and visual question answering. However, in cross-prompt adversarial attack scenarios, a single adversarial image often fails to effectively deceive all prompts. To address this challenge, we propose a Context-Enhanced Attack (ACE) that utilizes gradient-based perturbation to inject the target instructions into visual and textual contexts, thereby improving its probability distribution and enhancing cross-prompt transferability of adversarial images. Extensive experiments on the BLIP2, InstructBLIP, and Llava models show that ACE outperforms existing methods in cross-prompt transferability, demonstrating its potential for more effective adversarial strategies in VLMs.
+Vision-language models (VLMs) seamlessly integrate visual and textual data to perform tasks such as image classification, caption generation, and visual question answering. However, adversarial images often struggle to deceive all prompts effectively in the context of cross-prompt migration attacks, as the probability distribution of the tokens in these images tends to favor the semantics of the original image rather than the target tokens. To address this challenge, we propose a Contextual-Injection Attack (CIA) that employs gradient-based perturbation to inject target tokens into both visual and textual contexts, thereby improving the probability distribution of the target tokens. By shifting the contextual semantics towards the target tokens instead of the original image semantics, CIA enhances the cross-prompt transferability of adversarial images. 
 
 ![Overall Stucture](assets/motivation.png)
 
